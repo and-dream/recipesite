@@ -21,7 +21,7 @@ class HomeController extends AbstractController
                 //!Paramètres du render
         //Le chemin vers la view en string, on lui dit 'on veut que cela renvoie vers home.html.twig'
         //La méthode Render() va pointer vers le template home.html.twig
-        return $this->render('home.html.twig');  
+        return $this->render('pages/home.html.twig');  
     
     }
        
